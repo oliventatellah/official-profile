@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(132, 123, 229);
+}
+body{
+    min-height:  100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-image img{
+    width: 100%;
+    transform: scale(1.2);
+}
+.card{
+    position: relative;
+    width: 320px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding:19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 56px 24px;
+}
+p{
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.name{
+    margin-top: 80px;
+    font-size: 1.4rem;
+    color: rgb(96, 96, 179);
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+h2{
+    color: rgb(96, 96, 179);
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+.social-account{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+button{
+    margin: 12px 8px;
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+    background-color: rgb(96, 96, 179);
+}
+button:hover{
+    opacity: 0.8;
+     
+}
+button i{
+    color: #fff;
+    font-size: 1.4rem;
+}
+button.github{
+    background-color: black;
+}
+button.linkedin{
+    background-color: rgb(69, 69, 169);
+}
+button.pinterest{
+    background-color: red;
+
+}
+button.twitter{
+    background-color: blue;
+}
